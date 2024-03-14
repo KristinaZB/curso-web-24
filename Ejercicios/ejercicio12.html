@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 12</title>
+</head>
+
+<body>
+
+    <h1>Formularios</h1>
+
+    <form action="">
+        <!-- Para que el recuadro me salga a la izq hay que poner el input antes que el label -->
+        <input type="checkbox" name="frutas" id="fresas" value="fresas">
+        <label for="fresas">Fresas</label><br>
+
+        <input type="checkbox" name="frutas" id="mandarinas" value="mandarinas">
+        <label for="mandarinas">Mandarinas</label><br>
+
+        <input type="checkbox" name="frutas" id="manzanas" value="manzanas">
+        <label for="manzanas">Manzanas</label><br>
+
+        <input type="checkbox" name="frutas" id="sandia" value="sandia">
+        <label for="sandia">Sandía</label><br>
+
+    </form>
+    <hr>
+
+    <h2>Preferencias de comida</h2>
+
+    <form>
+
+        <fieldset>
+
+            <legend>Preferencias de comida</legend>
+            <input type="checkbox" id="pizza" name="comida" value="pizza">
+            <label for="">Pizza</label><br>
+            <input type="checkbox" id="hamburguesa" name="comida" value="hamburguesa">
+            <label for="">Hamburguesa</label><br>
+            <input type="checkbox" id="ensalada" name="comida" value="ensalada" checked>
+            <label for="">Ensalada</label><br>
+            <input type="checkbox" id="sushi" name="comida" value="sushi">
+            <label for="">Sushi</label>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Selecciona tus comidas favoritas</legend>
+            <input type="checkbox" id="agua" name="bebidas" value="agua" checked>
+            <label for="">Agua</label><br>
+            <input type="checkbox" id="refresco" name="bebidas" value="refresco">
+            <label for="">Refresco</label><br>
+            <input type="checkbox" id="jugo" name="bebidas" value="jugo">
+            <label for="">Jugo</label>
+
+        </fieldset>
+
+        <br>
+        <label for="name">Nombre:</label><br>
+        <input type="text" name="nombre" id="nombre"><br>
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="correo" id="correo"><br>
+
+        <br>
+
+        <fieldset>
+            <legend>Selecciona una opción</legend>
+            <input type="radio" id="hola" name="saludo">
+            <label for="">Hola</label>
+            <input type="radio" name="saludo" id="adios">
+            <label for="">Adios</label>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Género</legend>
+            <input type="radio" id="hola" name="genero">
+            <label for="">Masculino</label><br>
+            <input type="radio" name="genero" id="mujer">
+            <label for="">Femenino</label><br>
+            <input type="radio" name="genero" id="otro">
+            <label for="">Otro</label>
+
+        </fieldset>
+        <fieldset>
+            <legend>Preferencias de comida</legend>
+            <input type="radio" id="pizza" name="comida">
+            <label for="">Pizza</label><br>
+            <input type="radio" name="comida" id="hamburguesa">
+            <label for="">Hamburguesa</label><br>
+            <input type="radio" name="comida" id="ensalada">
+            <label for="">Ensalada</label>
+
+        </fieldset>
+
+        <br>
+
+        <input type="submit" value="Enviar">
+
+    </form>
+
+
+
+
+
+
+</body>
+
+</html>

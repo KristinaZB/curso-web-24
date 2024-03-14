@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+</head>
+<style>
+    /* Ctr+ Ç para comentar */
+    /* Asterisco significa todo */
+    /*Table * significa "todo lo que está dentro de la tabla"*/
+    /*Para abrir llaves AltGr + tilde*/
+    table * {
+        border: 1px solid black;
+        padding: 5px;
+        /*Padding es un relleno en blanco para las celdas de la tabla*/
+
+
+    }
+
+    table{
+        width: 100%;
+        /*Con border collapse se eliminan los bordes internos de la tabla*/
+        border-collapse: collapse;
+    
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border: 1px solid black;
+    }
+    h1{
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+    th{
+        color: blueviolet;
+        background-color: thistle;
+        text-align: left;
+    }
+</style>
+
+<body>
+    <h1>Tablas en HTML</h1>
+    <h2>Tablas de clientes</h2>
+    <table>
+      <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>Edad</th>
+            <th>Localidad</th>
+            <th>Hobbie</th>
+        </tr>
+      </thead>
+        <tbody>
+            <tr>
+                <td>Alejandra</td>
+                <td>Gómez</td>
+                <td>32</td>
+                <td>Sarrikue</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Susana</td>
+                <td>Sodupe</td>
+                <td>22</td>
+                <td>Durango</td>
+                <td></td>
+            </tr>
+    
+            <tr>
+                <td>Zaloa</td>
+                <td>Vispo</td>
+                <td>32</td>
+                <td>Kabiezes</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Iris</td>
+                <td>Cardona</td>
+                <td>34</td>
+                <td>Bilbao</td>
+                <td></td>
+            </tr>
+        </tbody>
+        
+    </table>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

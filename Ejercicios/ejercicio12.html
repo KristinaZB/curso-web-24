@@ -40,6 +40,7 @@
             <input type="checkbox" id="hamburguesa" name="comida" value="hamburguesa">
             <label for="">Hamburguesa</label><br>
             <input type="checkbox" id="ensalada" name="comida" value="ensalada" checked>
+            <!-- checked sirve para dejar algo marcado por defecto -->
             <label for="">Ensalada</label><br>
             <input type="checkbox" id="sushi" name="comida" value="sushi">
             <label for="">Sushi</label>
@@ -90,16 +91,18 @@
         </fieldset>
         <fieldset>
             <legend>Preferencias de comida</legend>
-            <input type="radio" id="pizza" name="comida">
+            <input type="radio" id="pizza" name="comida" value="pizza">
             <label for="">Pizza</label><br>
-            <input type="radio" name="comida" id="hamburguesa">
+            <input type="radio" id="hamburguesa" name="comida" value="hamburguesa">
             <label for="">Hamburguesa</label><br>
-            <input type="radio" name="comida" id="ensalada">
+            <input type="radio" id="ensalada" name="comida" value="ensalada">
             <label for="">Ensalada</label>
 
         </fieldset>
 
         <br>
+        <label for="archivo">Sube un archivo</label><br>
+        <input type="file" name="archivo" id="archivo"><br><br>
 
         <input type="submit" value="Enviar">
 

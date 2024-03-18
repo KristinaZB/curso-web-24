@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 17</title>
+</head>
+
+<body>
+
+    <h2>Completa el formulario</h2>
+    <form action="">
+        <label for="nombre">*Nombre:</label><br>
+        <input type="text" maxlength="10" required><br>
+        <label for="dni">*DNI:</label><br>
+        <input type="text" name="dni" id="dni" pattern="[0-9]{8}[A-Za-z]" required
+            title="Introduce in DNI válido: 8 números y una mayúscula"><br>
+        <label for="telefono">*Teléfono:</label><br>
+        <input type="tel" name="telefono" id="telefono" required pattern="[0-9]{9}"
+            title="introduce un numero de telefono"><br>
+
+        <fieldset>
+            <legend>Género:</legend>
+            <input type="radio" name="genero" id="masculino">
+            <label for="masculino" name="masculino">Masculino</label><br>
+            <input type="radio" name="genero" id="femenino">
+            <label for="femenino" name="femenino">Femenino</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Intereses</legend>
+
+            <input type="checkbox" name="aficiones" id="deporte">
+            <label for="deporte">Deporte</label><br>
+            <input type="checkbox" name="aficiones" id="musica">
+            <label for="musica">Música</label><br>
+            <input type="checkbox" name="aficiones" id="lectura">
+            <label for="lectura">Lectura</label><br>
+
+        </fieldset>
+        <br>
+        <label for="">Selecciona tu país</label>
+        <select name="pais" id="pais">
+            <option value="" disabled selected>Selecciona</option>
+            <option value="espana">España</option>
+            <option value="francia">Francia</option>
+            <option value="italia">Italia</option>
+        </select><br><br>
+
+        <label for="archivo">Selecciona un archivo</label><br>
+        <input type="file" name="archivo" id="archivo">
+        <br><br>
+        <label for="consulta">Sugerencias</label>
+        <textarea name="consulta" id="consulta" cols="60" rows="10" placeholder="Escriba aquí su sugerencia"></textarea><br>
+
+        <input type="submit" value="Enviar"><br>
+        <button type="reset" value="enviar">Enviar</button><br>
+        <button type="submit" value="enviar">Enviar</button><br>
+
+    </form>
+
+
+
+</body>
+
+</html>

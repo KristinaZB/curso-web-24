@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 18</title>
+</head>
+
+<body>
+    <h1>Ejercicio 18</h1>
+
+    <form action="">
+        <label for="nombre">*Nombre:</label><br>
+        <input type="text" name="nombre" id="nombre" required maxlength="10"><br>
+        <label for="contrasena">*Contraseña:</label><br>
+        <input type="password" name="contrasena" id="contrasena" required><br>
+        <label for="email">*Correo electrónico:</label><br>
+        <input type="email" name="email" id="email" required><br>
+        <label for="telefono">*Teléfono:</label><br>
+        <input type="tel" name="telefono" id="telefono" required pattern="[0-9]{9}"
+            title="Introduce un número de 9 dígitos"><br>
+        <label for="nacimiento">*Fecha de nacimiento:</label><br>
+        <input type="date" name="nacimiento" id="nacimiento" required><br>
+
+        <fieldset>
+            <legend>Selecciona un género</legend>
+            <input type="radio" name="genero" id="masculino" checked>
+            <label for="">Masculino</label><br>
+            <input type="radio" name="genero" id="femenino">
+            <label for="">Femenino</label><br>
+            <input type="radio" name="genero" id="otro">
+            <label for="">Otro</label>
+        </fieldset><br>
+        <label for="archivo">Selecciona un archivo</label>
+        <input type="file" name="archivo" id="archivo"><br><br>
+
+        <label for="pais">*País</label>
+        <select name="pais" id="pais" required>
+            <option value="" disabled selected>selecciona un país</option>
+            <option value="japon">Japón</option>
+            <option value="india">India</option>
+            <option value="escocia">Escocia</option>
+            <option value="alemania">Alemania</option>
+            <option value="finlandia">Finlandia</option>
+        </select><br><br>
+
+        <label for="">*Mensaje</label><br>
+
+        <textarea name="mensaje" id="mensaje" cols="40" rows="10" required></textarea><br>
+
+        <input type="checkbox" name="privacidad" id="privacidad" value="politica" checked>
+        <label for="privacidad">Acepto la <a href="https://politicadeprivacidadplantilla.com/">política de privacidad</label></a><br><br>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Restablecer</button>
+
+    </form>
+
+
+</body>
+
+</html>

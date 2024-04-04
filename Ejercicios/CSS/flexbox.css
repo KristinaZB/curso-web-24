@@ -1,0 +1,33 @@
+.flex-container{
+    background-color: pink;
+    display: flex;
+
+}
+
+.vertical{
+    flex-direction: column;
+}
+
+.horizontal{
+    justify-content: flex-end;
+}
+
+.cruzado{
+    height: 300px;
+    /*Justify content alinea en el eje pricipal*/
+    align-items:center;
+    justify-content: center;
+}
+
+.cruzado div{
+    height: 20%;
+}
+
+.flex-container div{
+    background-color: lightgray;
+    margin: 10px;
+    padding: 20px;
+    font-size: 2rem;
+    text-align: center;
+}
+

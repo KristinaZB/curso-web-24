@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 13</title>
+</head>
+
+<body>
+    <h1>Completa el formulario</h1>
+
+    <form action="">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" name="nombre" id="nombre" maxlength="5"><br> 
+        
+        <!--Atributo maxlenght para limitar el numero de caracteres-->
+
+
+        <label for="contraseña">Contraseña:</label><br>
+        <input type="password" name="contrasena" id="contrasena"><br>
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" name="email" id="email" required>
+    </form>
+    <label for="edad">Edad</label><br>
+    <input type="number" name="edad" id="edad"><br>
+    <label for="telefono">Teléfono:</label><br>
+    <input type="tel" name="telefono" id="telefono"><br>
+    <label for="dni">DNI</label><br>
+    <input type="text" pattern="dni"><br>
+
+    <fieldset>
+
+        <legend>Género</legend>
+        <input type="radio" name="genero" id="masculino" value="masculino">
+        <label for="masculino">Masculino</label><br>
+        <input type="radio" name="genero" id="femenino" value="femenino">
+        <label for="femenino">Femenino</label>
+    </fieldset>
+    <br>
+    <label for="archivo">Selecciona un archivo</label>
+    <br>
+    <input type="file" name="archivo" id="archivo"><br><br>
+    <input type="checkbox" name="suscripcion" id="suscripcion">
+    <label for="suscripcion">Suscribirme al boletín</label>
+    <br><br>
+    <input type="submit" value="enviar">
+
+    <!-- <button type="submit">Enviar</button> ... se puede crear un botón de enviar así también-->
+
+</body>
+
+</html>

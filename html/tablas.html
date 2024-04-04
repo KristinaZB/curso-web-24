@@ -13,37 +13,22 @@
     /*Para abrir llaves AltGr + tilde*/
     table * {
         border: 1px solid black;
-        padding: 5px;
-        /*Padding es un relleno en blanco para las celdas de la tabla*/
-
-
+        
     }
 
-    table{
+    table {
         width: 100%;
-        /*Con border collapse se eliminan los bordes internos de la tabla*/
+        /*Con border collapse eliminamos los bordes internos de la tabla*/
         border-collapse: collapse;
-    
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        border: 1px solid black;
-    }
-    h1{
         text-align: center;
-    }
-    h2{
-        text-align: center;
-    }
-    th{
-        color: blueviolet;
-        background-color: thistle;
-        text-align: left;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
     }
 </style>
 
 <body>
     <h1>Tablas en HTML</h1>
     <h2>Tablas de clientes</h2>
-    <table>
+    <table style="border: 1px solid black" ;>
       <thead>
         <tr>
             <th>Nombre</th>

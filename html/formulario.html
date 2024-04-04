@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            animation: fondo 10s infinite alternate;
+            margin: 0;
+        }
+
+        form {
+            background-color: pink;
+            width: 75%;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        p {
+            font-weight: 700;
+        }
+        h1{
+            text-align: center;
+        }
+
+input#color{
+    border-radius: 50%;
+    width:1,6rem;
+    height:1,6rem;
+}
+
+
+ 
+        @keyframes fondo {
+            from {background-color:pink}
+            to {background-color:skyblue}
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <form action="formulario" method="get">
+
+        <h1>Formulario</h1>
+        <p>
+            <label for="text">Nombre:</label>
+            <input type="text" name="name" id="name" maxlength="10" autofocus><br>
+        </p>
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email"><br>
+        </p>
+        <p>
+            <label for="url">URL:</label>
+            <input type="url" name="url" id="url"><br>
+        </p>
+        <p>
+            <label for="datetime">Fecha</label>
+            <input type="datetime" name="datetime" id="datetime"><br>
+        </p>
+        <p>
+
+        <p>
+            <label for="time">Tiempo:</label>
+            <input type="time" name="time" id="time">
+        </p>
+        <p>
+            <label for="datetime-local">Fecha y hora:</label>
+            <input type="datetime-local" name="datetime-local" id="datetime-local"><br>
+        </p>
+        <p>
+            <label for="month">Mes</label>
+            <input type="month" name="mes" id="mes"><br>
+        </p>
+        <p>
+            <label for="week">Semana</label>
+            <input type="week" name="semana" id="semana"><br>
+        </p>
+        <p>
+            <label for="number">Número (min -10 max 10):</label>
+            <input type="number" name="numero" id="numero" min="-10" max="10"><br>
+        </p>
+        <p>
+            <label for="tel">Teléfono:</label>
+            <input type="tel" name="telefono" id="telefono"><br>
+        </p>
+        <p>
+            <label for="search">Término de busqueda:</label>
+            <input type="search" name="search" id="search"><br>
+        </p>
+        <p>
+            <label for="color">Color favorito:</label>
+            <input type="color" name="color" id="color"><br>
+        </p>
+        <input type="submit" value="Enviar">
+
+
+
+
+
+
+    </form>
+
+</body>
+
+</html>

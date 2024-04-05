@@ -23,6 +23,13 @@
     height: 20%;
 }
 
+.izq, .der{
+    display: flex;
+    padding: 3px;
+    background-color: mediumpurple;
+
+}
+
 .flex-container div{
     background-color: lightgray;
     margin: 10px;

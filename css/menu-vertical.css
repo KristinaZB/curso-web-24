@@ -1,0 +1,6 @@
+.menu-vertical{
+    display: flex;
+    flex-direction: column;
+    background-color: cornflowerblue;
+    justify-content: center;
+}

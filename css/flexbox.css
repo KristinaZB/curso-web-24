@@ -23,6 +23,10 @@
     height: 20%;
 }
 
+.menu{
+    justify-content: space-between;
+    
+}
 .izq, .der{
     padding: 3px !important;
     background-color: mediumpurple !important;

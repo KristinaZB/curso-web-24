@@ -24,13 +24,14 @@
 }
 
 .izq, .der{
-    display: flex;
-    padding: 3px;
-    background-color: mediumpurple;
+    padding: 3px !important;
+    background-color: mediumpurple !important;
 
 }
 
-.flex-container div{
+
+
+.flex-container > div{
     background-color: lightgray;
     margin: 10px;
     padding: 20px;
@@ -38,3 +39,8 @@
     text-align: center;
 }
 
+.izq div, .der div{
+    background-color: white;
+    margin: 1px;
+    padding: 10px 35px;
+}

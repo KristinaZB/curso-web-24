@@ -1,9 +1,13 @@
 .menu-vertical{
-    display: flex;
-    flex-direction: column;
-    background-color: cornflowerblue;
-    align-items: center;
+    border: 1px solid black;
+    padding: 3px;
+    width: 200px;
+    
+    
 }
 .boton-mv{
-    
+    border: 2px solid cornflowerblue;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

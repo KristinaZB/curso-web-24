@@ -53,10 +53,10 @@
 
     <h2>Formulario</h2>
 
-    <form action="">
+    <form action="formulario">
 
 
-<legend>Género</legend>
+<label>Género</label>
 <input type="radio" name="genero" id="hombre" value="hombre">
 <label for="hombre">Hombre</label><br>
 <input type="radio" name="genero" id="mujer" value="mujer">
@@ -66,15 +66,15 @@
 
 <label for="nombre">Nombre:</label><br>
 <input type="text" name="nombre" id="nombre" required maxlength="10"><br><br>
-<label for="text">Apellidos:</label><br>
-<input type="text" name="apellido" id="apellido" maxlength="20"><br><br>
+<label for="apellido">Apellidos:</label><br>
+<input type="provincia" name="apellido" id="apellido" maxlength="20"><br><br>
 <label for="text">Provincia:</label><br>
 <input type="text" name="provincia" id="provincia"><br><br>
-<label for="contraseña">Contraseña:</label><br>
+<label for="pass">Contraseña:</label><br>
 <input type="password" name="pass" id="pass"><br><br>
 <label for="dni">DNI:</label><br>
 <input type="text" name="dni" id="dni" pattern="[0-9] {8} [A-Za-z]" required><br><br>
-<label for="submit">Subir foto DNI</label>
+<label for="archivo">Subir foto DNI</label>
 <input type="file" name="archivo" id="archivo"><br><br>
 
 <input type="checkbox" name="newsletter" id="newsletter">

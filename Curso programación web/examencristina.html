@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen</title>
+</head>
+
+<body>
+
+    <h1>Menú</h1>
+
+    <ul>Inicio </ul>
+
+    <ul><b>Noticias</b>
+        <ul>
+            <li> <a href="#">Recientes</a></li>
+            <li><b> <a href="#">Más leídas</a></b></li>
+            <li> <a href="#">Más valoradas</a></li>
+        </ul>
+    </ul>
+    <ul>Artículos <ol>
+            <li><b>XHTML</b></li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>Otros</li>
+        </ol>
+    </ul>
+
+    <ul>Contacto</ul>
+
+    <ul style="list-style: none;">
+        <li>Email<ul>
+                <li style="list-style: none;"><b>nombre@dirección.com</b></li>
+            </ul>
+        </li>
+        <li>Teléfono <ul>
+                <li style="list-style: none;">900 900 900</li>
+            </ul>
+        </li>
+        <li>Fax
+            <ul>
+                <li style="list-style: none;">900 900 900</li>
+            </ul>
+        </li>
+    </ul>
+    <br>
+
+    <form action="mailto@examengmail.com" method="post">
+
+        <h2>Rellena tu CV</h2>
+
+        <label for="nombre">Nombre</label><br>
+        <input type="text" name="nombre" id="nombre" maxlength="30"><br>
+        <label for="apellido">Apellido</label><br>
+        <input type="text" name="apellido" id="apellido" maxlength="80" size="40"><br>
+        <label for="pass">Contraseña</label><br>
+        <input type="password" name="pass" id="pass"><br>
+        <label for="dni">DNI</label><br>
+        <input type="text" name="dni" id="dni" pattern="[0-9]{8}[A-Za-z]{1}" size="15"><br>
+
+        <br>
+
+        <label for="sexo">Sexo</label><br>
+        <input type="radio" name="sexo" id="sexo">
+        <label for="hombre">Hombre</label><br>
+        <input type="radio" name="sexo" id="sexo">
+        <label for="mujer">Mujer</label><br><br>
+
+        <label for="foto">Incluir mi foto</label>
+        <input type="text" name="foto" id="foto">
+        <input type="button" value="Elegir">
+
+
+
+        <br><br>
+       
+        
+        <input type="checkbox" name="suscripcion" id="suscripcion" checked>
+<label for="suscripcion">Suscribirme al boletín de novedades</label><br><br>
+
+<input type="button" value="Guardar cambios">
+<input type="reset" value="borrar los datos introducidos">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+
+
+
+
+</body>
+
+</html>

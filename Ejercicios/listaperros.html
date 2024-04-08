@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista perros</title>
+    <title>Lista perros y formulario</title>
 
 </head>
 
 <body>
 
-    <h1>Perros</h1>
+    <h1>Lista y formulario</h1>
+    <h2>Perros</h2>
 
     <ul>
         <li>Razas</li>
@@ -49,6 +50,60 @@
         </li>
         <li class="sincirculo"><i>Dirección</i></li>
     </ul>
+
+    <h2>Formulario</h2>
+
+    <form action="">
+
+
+<legend>Género</legend>
+<input type="radio" name="genero" id="hombre" value="hombre">
+<label for="hombre">Hombre</label><br>
+<input type="radio" name="genero" id="mujer" value="mujer">
+<label for="mujer">Mujer</label><br>
+<input type="radio" name="genero" id="otro" value="otro">
+<label for="otro">Otro</label><br><br>
+
+<label for="nombre">Nombre:</label><br>
+<input type="text" name="nombre" id="nombre" required maxlength="8"><br><br>
+<label for="text">Apellidos:</label><br>
+<input type="text" name="apellido" id="apellido"><br><br>
+<label for="text">Provincia:</label><br>
+<input type="text" name="provincia" id="provincia"><br><br>
+<label for="contrasena">Contraseña:</label><br>
+<input type="password" name="pass" id="pass"><br><br>
+<label for="dni">DNI:</label><br>
+<input type="text" name="dni" id="dni" pattern="[0-9] {8} [A-Za-z]" required><br><br>
+<label for="submit">Subir foto DNI</label>
+<input type="file" name="archivo" id="archivo"><br><br>
+
+<input type="checkbox" name="newsletter" id="newsletter">
+<label for="newsletter">Suscribirse a la newsletter</label><br><br>
+
+<input type="submit" value="enviar">
+<input type="reset" value="restablecer datos">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
 
 
 

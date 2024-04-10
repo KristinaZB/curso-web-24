@@ -47,18 +47,79 @@
 
     <p>Selecciona un grupo de elementos basándose en el atributo clase</p>
 
-    <button class="grupo-btn"></button>
-    <button class="grupo-btn"></button>
-    <button class="grupo-btn"></button>
+    <button class="grupo-btn">Botón con clase</button>
+    <button class="grupo-btn" id="btn1">Botón con clase e id</button>
+    <button class="grupo-btn">Botón con clase</button>
 
+    <button>Botón HTML</button>
 
+    <h3>Selector universal</h3>
 
+    <p>Selecciona <b>TODOS</b> los elementos del documento. El selector es un asterisco *</p>
 
+    <h3>Agrupamiento de selectores</h3>
 
+    <p>Se usa cuando queremos aplicar el mismo estilo a diferentes nombres, clases o id´s</p>
 
+    <h4>Encabezado 4</h4>
+    <h5>Encabezado 5</h5>
+    <h6>Encabezado 6</h6>
 
+    <h2>Selectores combinadores</h2>
 
+    <p>Un combinador es un selector que explica la relación entre dos elementos</p>
 
+    <p>Hay 4 tipos distintos de combinadores:</p>
+    <ul>
+        <li>Selector descendiente (espacio)</li>
+        <li>Selector child o hijo (>)</li>
+        <li>Selector adyacente o hermano (+)</li>
+        <li>Selector de hermano (~)</li>
+    </ul>
+
+    <h3>Selector descendiente</h3>
+
+    <p>Se usa para selecionar a <b>TODOS</b> los descendientes de un elemento especificado</p>
+
+    <div>
+        <p>Este párrafo está dentro de un div</p>
+    </div>
+
+    <div>
+        <menu>
+            <p>Este párrafo es nieto de un div</p>
+        </menu>
+    </div>
+
+    <h3>Selector child o hijo</h3>
+
+    <div>
+        <span>Este span es hijo directo de un div</span>
+    </div>
+
+    <div>
+        <menu>
+            <span>Este span es nieto de un div</span>
+        </menu>
+    </div>
+
+    <h3>Selector hermano adyacente</h3>
+
+    <div>
+        <h5>Encabezado 5</h5>
+        <!--<span></span>-->
+        <p>Este párrafo está adyacente al h5</p>
+        <p>Este párrafo no</p>
+    </div>
+
+    <h3>Hermano general o sibling</h3>
+
+    <div>
+        <p>Párrafo hermano de h6</p>
+        <h6>Encabezdo 6</h6>
+        <p>Párrafo hermano de h6</p>
+        <p>Párrafo hermano de h6</p>
+    </div>
 
 
 

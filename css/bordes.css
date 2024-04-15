@@ -1,0 +1,25 @@
+div {
+    text-align: center;
+    padding: 25px;
+    height: 100px;
+    background-color: lavenderblush;
+    margin: 20px;
+}
+
+#uno {
+border: 3px solid black;
+}
+
+#dos {
+ border-bottom: 3px solid  red;
+}
+
+#tres {
+
+    border-radius: 50%;
+}
+
+#cuatro {
+border-left: 3px  solid blue;
+    
+}

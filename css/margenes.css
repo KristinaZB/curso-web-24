@@ -1,4 +1,18 @@
-#ejuno {
-    margin: 70px;
-    border: 3px solid dodgerblue;
+div {
+    border: 2px solid dodgerblue;
+}
+
+#ej1 {margin: 70px;}
+
+ /* dos valores: 1er valor top-bottom, 2o valor */
+#ej2 {margin: 40px 50px;}
+
+/* tres valores: 1er valor top, 2o valor left-right, 3er valor bottom */
+#ej3 {
+    margin: 25px 50px 75px;
+}
+
+/* cuatro valores: superior, derecho, inferior e izquierdo */
+#ej4 {
+    margin: 25px 50px 75px 100px ;
 }

@@ -1,9 +1,9 @@
 div {
     text-align: center;
     padding: 25px;
-    height: 100px;
     background-color: lavenderblush;
     margin: 20px;
+
 }
 
 #uno {
@@ -15,11 +15,11 @@ border: 3px solid black;
 }
 
 #tres {
-
-    border-radius: 50%;
+    border: 3px solid black;
+    border-radius: 10px;
 }
 
 #cuatro {
 border-left: 3px  solid blue;
-    
+
 }

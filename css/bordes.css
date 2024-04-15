@@ -23,3 +23,24 @@ border: 3px solid black;
 border-left: 3px  solid blue;
 
 }
+h2 ~ div {
+    border: 3px solid blue;
+   
+}
+
+#dotted {border-style: dotted}
+#dashed {border-style: dashed}
+#double{border-style: double}
+#groove {border-style: groove}
+#ridge {border-style: ridge}
+#inset {border-style: inset}
+#outset {border-style: outset}
+#none {border-style: none}
+#hidden {border-style: hidden}
+#mix {border-style: dotted dashed solid double}
+
+#width {
+    border-width: 25px 10px 4px 35px;
+    /* 25 arriba, 10 a la derecha, 4 abajo, 35 a la izq */
+    border-color: blueviolet crimson fuchsia dodgerblue;
+}

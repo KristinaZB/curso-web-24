@@ -37,3 +37,10 @@
 #alinear p + p + p + p {
     text-align: justify;
 }
+
+#invertido {
+    /* El texto va derecha a izquierda */
+    direction: rtl;
+    /* Invierte el orden de los caracteres */
+    unicode-bidi: bidi-override;
+}

@@ -1,0 +1,39 @@
+#color {
+    background-color: lightgray;
+    color: dodgerblue;
+    border: 3px solid;
+}
+
+#color h2 {
+    margin-top: 0;
+    background-color: black;
+    color: white;
+}
+
+#color div {
+    background-color: dodgerblue;
+    color: white;
+}
+
+#mal-ejemplo-color {
+    background-color: crimson;
+    color: fuchsia;
+}
+
+#alinear {
+    border: 3px solid black;
+}
+#alinear p {
+    text-align: left;
+}
+#alinear p + p {
+    text-align: right;
+}
+#alinear p:nth-child(3) {
+    text-align: center;
+}
+
+/* También se puede poner-- #alinear p:last-child {text-align: justify;}  */
+#alinear p + p + p + p {
+    text-align: justify;
+}

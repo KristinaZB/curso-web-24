@@ -34,6 +34,11 @@ span {
     background-color: lightblue;
     border: 3px solid dodgerblue;
     margin: 0 auto;
-
+    box-sizing: border-box;
 
 }
+
+footer {
+    height: 400px;
+}
+

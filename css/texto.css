@@ -20,7 +20,7 @@
     color: fuchsia;
 }
 
-#alinear {
+#alinear, #deco {
     border: 3px solid black;
 }
 #alinear p {
@@ -48,4 +48,23 @@
 code {
     background-color: rgb(60, 60, 60);
     color: rgb(254, 107, 254);
+}
+
+#deco h2 {
+    text-decoration-line: line-through;
+    text-decoration-color: crimson;
+}
+
+#deco h3 {
+    text-decoration-line: overline;
+}
+
+#deco h4 {
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+    color: blue;
+}
+
+#deco p {
+    text-decoration-line: overline underline;
 }

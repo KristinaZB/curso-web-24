@@ -20,7 +20,7 @@
     color: fuchsia;
 }
 
-#alinear, #deco, #transformar {
+#alinear, #deco, #transformar, #sombras {
     border: 3px solid black;
 }
 #alinear p {
@@ -120,3 +120,35 @@ code {
 #esp-palabras p:last-child {
     word-spacing: 15px;
 }
+
+/* primer valor horizontal, segundo valor vertical */
+#sombras h2:first-child {
+    text-shadow: 2px 2px;
+}
+
+#sombras h2:nth-child(2) {
+    text-shadow: 2px 2px crimson;
+}
+#sombras h2:nth-child(3) {
+    /* tercer valor, blur o desenfoque */
+    text-shadow: 2px 2px 4px rgb(3, 39, 186) ;
+}
+
+#sombras h2:nth-child(5) {
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+#sombras h2:nth-child(7) {
+    text-shadow: 0 0 3px red;
+}
+
+#sombras h2:nth-child(9) {
+        text-shadow:0 0 5px blueviolet, 0 0 5px crimson ;
+}
+
+#sombras h2:last-child {
+    color: white;
+    text-shadow: 1px 1px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+

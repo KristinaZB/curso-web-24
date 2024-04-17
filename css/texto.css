@@ -20,7 +20,7 @@
     color: fuchsia;
 }
 
-#alinear, #deco {
+#alinear, #deco, #transformar {
     border: 3px solid black;
 }
 #alinear p {
@@ -57,6 +57,7 @@ code {
 
 #deco h3 {
     text-decoration-line: overline;
+    text-decoration-thickness: 8px;
 }
 
 #deco h4 {
@@ -67,4 +68,55 @@ code {
 
 #deco p {
     text-decoration-line: overline underline;
+    text-decoration-style: dashed;
+}
+
+#deco-a {
+    text-decoration: none;
+    background-color: dodgerblue;
+    color: white;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+#transformar p {
+    text-transform: uppercase;
+}
+
+#transformar p + p {
+    text-transform: lowercase;
+}
+
+#transformar p + p + p {
+    text-transform: capitalize;
+}
+
+#indentar {
+    text-indent: 50px;
+}
+
+#esp1 {
+    letter-spacing: 5px;
+}
+
+#esp2 {
+    letter-spacing: -2px;
+}
+
+#altura p + p{
+    line-height: 0.6;
+    background-color: lightblue;
+}
+
+#altura p:last-child {
+    line-height: 1.8;
+}
+
+#esp-palabras p + p {
+    background-color: lightblue;
+    word-spacing: -4px;
+}
+
+#esp-palabras p:last-child {
+    word-spacing: 15px;
 }

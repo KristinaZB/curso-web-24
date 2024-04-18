@@ -96,3 +96,13 @@ section h2 {
     justify-content: center;
 }
 
+section blockquote {
+    font-style: italic;
+    background-color: white;
+    padding: 20px;
+    margin: 15px;
+    border-left: 3px solid black;
+    color: #333;
+    line-height: 30px;
+}
+

@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Estilos del header */
+
+#site-header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 20px;
+}
+
+#site-header div {
+    display: flex;
+    align-items: center;
+}
+
+#site-header div img {
+    width: 50px;
+    margin-right: 15px;
+}
+
+#site-header nav ul {
+    display: flex;
+}
+
+#site-header nav ul li a {
+    color: white;
+    font-weight: bold;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+#site-main {
+    padding: 50px 0;
+}
+
+#site-main h1 {
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+#site-main section {
+    background-color: lightpink;
+   padding: 50px;
+   margin-bottom: 50px;
+   color: white;
+}
+
+section h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+#site-main section article h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#site-main section article p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+
+#site-main section article {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 25%;
+    text-align: center;
+}
+
+#site-main section article a {
+    color:lightpink;
+    font-weight: bold;
+}
+
+#site-main .uno {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+

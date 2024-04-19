@@ -20,3 +20,9 @@ code {
     background-color: rgb(60, 60, 60);
     color: lightskyblue;
 }
+
+.recuadro {
+    border: 3px solid black;
+    margin: 0 auto;
+    padding: 0 5px;
+}

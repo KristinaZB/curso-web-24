@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position absolute02</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .contenedor {
+            margin: 50px auto;
+            background-color: lavender;
+            width: 350px;
+            height: 400px;
+            position: relative;
+        }
+
+        .contenedor div:first-child {
+            width: 90px;
+            height: 100px;
+            background-color: blueviolet;
+            position: absolute;
+            left: 30px;
+            top: 30px;
+        }
+
+        .contenedor div:nth-child(2) {
+            width: 90px;
+            height: 100px;
+            background-color: crimson;
+            position: absolute;
+            left: 150px;
+            top: 150px;
+        }
+
+        .contenedor div:last-child {
+            width: 90px;
+            height: 100px;
+            background-color: violet;
+            position: absolute;
+            left: 30px;
+            bottom: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="contenedor">
+
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+</body>
+</html>

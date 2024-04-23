@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#showcase {
+   background-image: url(https://hips.hearstapps.com/hmg-prod/images/gettyimages-1385280473-647f35fa441f4.jpg);
+   background-size: cover;
+   background-position: center;
+   height: 100vh;
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+#showcase h1 {
+    color: saddlebrown;
+}
+
+#showcase p {
+    color: saddlebrown;
+
+}
+
+/* a { 
+    text-decoration: none;
+    color: saddlebrown;
+    border: 2px solid saddlebrown;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px;
+} */
+
+.button {
+    text-decoration: none;
+    color: saddlebrown;
+    border: 2px solid saddlebrown;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 1.12rem;
+}
+
+.button:hover {
+    color: whitesmoke;
+    background-color: saddlebrown;
+}
+
+#section-a {
+    background-color: saddlebrown;
+    color: whitesmoke;
+}
+#section-b {
+    background-color: whitesmoke;
+    color: saddlebrown;
+}
+
+#section-c .box-1, .box-3 {
+    background-color: saddlebrown;
+    color: whitesmoke;
+
+}
+
+#section-c .box-2 {
+    color: saddlebrown;
+}

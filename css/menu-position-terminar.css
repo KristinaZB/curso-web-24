@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+#site-header p {
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+menu {
+    background-color: black;
+    padding: 12px;
+}
+
+menu a {
+   color: white;
+   margin: 8px;
+}
+
+menu a:hover {
+    background-color: #666;
+    
+}
+
+
+
+#site-header {
+    background-color: steelblue;
+    height: 150px;
+    padding: 15px;
+}
+
+menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    padding: 15px;
+}

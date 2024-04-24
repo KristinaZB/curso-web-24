@@ -7,7 +7,6 @@
     border: 2px solid black;
     /* height: 400px; */
     /* width: 300px; */
-    margin: 30px;
     display: flex;
     flex-direction: column;
 }
@@ -24,6 +23,16 @@
 
 .centro {
     flex-direction: column;
+}
+
+.flex-container2 {
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container2 div {
+
 }
 
 

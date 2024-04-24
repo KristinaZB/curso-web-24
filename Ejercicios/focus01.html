@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus</title>
+</head>
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-decoration: none;
+            list-style: none;
+        }
+
+        h1 {
+            margin-bottom: 15px;
+        }
+
+        #site-main {
+            background-color: springgreen;
+            padding: 10px;
+            text-align: center;
+        }
+
+        #site-main nav a {
+            color: white;
+            padding: 15px;
+            display: block;
+        }
+
+        #site-main ul a:hover {
+            background-color: crimson;
+            color: black;
+        }
+
+        #site-main ul li a:focus {
+            outline: none;
+        }
+
+        @media (min-width:1024px) {
+            #site-main {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            #site-main nav ul {
+                display: flex;
+            }
+
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header id="site-main">
+        <h1>Hover con Media Query</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Elemento 1</a></li>
+                <li><a href="#">Elemento 2</a></li>
+                <li><a href="#">Elemento 3</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu-absolute-hover</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            list-style: none;
+            text-decoration: none;
+        }
+
+        #site-header {
+            background-color: firebrick;
+        }
+
+        #site-header nav ul li a {
+            color: white;
+            font-weight: 500;
+            padding: 20px;
+            text-align: center;
+            display: block;
+        }
+
+        #site-header nav ul li a:hover {
+            background-color: black;
+        }
+
+        #site-header nav ul li ul{
+            display: none;
+        }
+
+        #site-header nav ul li:hover ul{
+            display: block;
+        }
+
+        @media(min-width:1024px) {
+            #site-header nav > ul {
+                display: flex;
+            }
+
+            #site-header nav > ul > li:nth-child(4) {
+                position: relative;
+            }
+            #site-header nav > ul > li:nth-child(4) ul {
+                position: absolute;
+                top: 100%;
+                background-color: firebrick;
+            }
+
+
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <header id="site-header">
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contacto</a>
+                    <ul>
+                        <li><a href="#">Servicio 1</a></li>
+                        <li><a href="#">Servicio 2</a></li>
+                        <li><a href="#">Servicio 3</a></li>
+                    </ul>
+            </ul>
+            </li>
+
+        </nav>
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

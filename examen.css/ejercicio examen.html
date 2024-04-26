@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Examen</title>
     <style>
+
         * {
             margin: 0;
             padding: 0;
@@ -15,15 +16,19 @@
         }
 
         #logo {
-            width: 50px;
+            width: 52px;
         }
 
         #yoga {
-            width: 200px;
+            width: 500px;
+            display: block;
+            margin: 10px auto;
         }
 
         #flecha {
-            width: 50px;
+            width: 100px;
+            position: relative;
+            left: 50%;
         }
 
         #contenedor {
@@ -42,34 +47,89 @@
 
         header p {
             color: white;
-            font-size: 8px;
+            font-size: 9px;
+        }
+
+        header img {
+            margin-bottom: -6px;
+        }
+
+        header ul {
+            display: flex;
+            text-align: center;
+        }
+
+        header ul li {
+            display: flex;
+            align-items: end;
+            padding: 5px 0;
+        }
+
+        header ul a {
+            color: white;
+            padding: 0 20px;
+            font-weight: bold;
+        }
+
+        .select {
+            border-bottom: 7px solid white;
+            /*Hay que meterle un margen en negativo para equilibrar los píxeles que ha desplazado el borde, por tanto tienen que ponerse los mismos píxeles que hemos puesto de borde pero en negativo*/
+            margin-bottom: -7px;
         }
 
         header div {
-            
+            margin-bottom: -12px;
+            margin-right: 50px;
         }
 
+        form {
+            /* width: 450px; */
+            position: relative;
+            left: 65%;
+            bottom: 90px;
+        }
 
+        h3, label {
+            font-weight: 100;
+            color: white;
+            margin: 10px 0;
+            font-size: 14px;
+        }
+      
+        #email, #nombre {
+            background-color: thistle;
+            border: none;
+            padding: 5px;
+            margin: 10px;
+        }
 
+        #email::placeholder, #nombre::placeholder {
+            color:rgb(138, 107, 139) ;
+        }
 
-
+        #enviar {
+            width: 120px;
+            border: 1px solid white;
+            background-color: thistle;
+            padding: 5px;
+            margin-top: 5px;
+            border-radius: 5px;
+        }
+       
     </style>
 </head>
 
 <body>
     <div id="contenedor">
-
         <header>
-
             <div>
                 <img src="../examen.css/img/logo.png" id="logo">
                 <p>Bicicletas Lidia</p>
             </div>
-
             <ul>
                 <li class="select"><a href="">Inicio</a></li>
-                <li><a href="">Sobre Nosotros</a></li>
-                <li><a href="">Clases de Yoga</a></li>
+                <li><a href="">Sobre <br> Nosotros</a></li>
+                <li><a href="">Clases de <br> Yoga</a></li>
                 <li><a href="">Blog</a></li>
                 <li><a href="">Contacto</a></li>
             </ul>
@@ -96,7 +156,6 @@
                 <input type="submit" name="enviar" id="enviar" value="ENVIAR" class="bloque">
             </form>
         </main>
-
     </div>
 
 </body>

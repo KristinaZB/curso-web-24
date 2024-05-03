@@ -57,22 +57,30 @@
             #site-header nav>ul {
                 display: flex;
                 justify-content: center;
+                position: relative;
             }
 
             #site-header nav ul>li:nth-child(3):hover>ul {
-                display: relative;
+            position: absolute;
+            width: 100%;
+            top: 100%;
+            right: 0;
+            display: flex;
+            padding: 20px 0;
             }
 
-            #site-header nav ul>li:nth-child(3):hover>ul li ul {
+             #site-header nav ul>li:nth-child(3):hover>ul li ul {
                 display: block;
             }
-
-            #site-header nav ul>li:nth-child(3):hover>ul li ul {
-                display: block;
+            #site-header nav ul>li:nth-child(3):hover>ul>li>ul a {
+                font-weight: 400;
+                padding: 10px;
+                border: none;
             }
-
-            #site-header nav ul>li:nth-child(3):hover>ul li ul {
-                display: block;
+        
+            #site-header nav ul>li:nth-child(3):hover>ul>li>ul>li:hover a{
+            text-decoration: underline;
+            color: red;
             }
 
 

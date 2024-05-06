@@ -7,14 +7,14 @@
 }
 
 #site-header {
-    background-color: mediumpurple;
+    background-color: rgb(245, 171, 255);
     height: 250px;
 }
 #site-header h1, p {
     text-align: center;
 }
 #site-menu {
-    background-color: black;
+    background-color: rgb(61, 0, 80);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,18 +40,30 @@
     height: 200px;
 }
 
-.derecha {
 
+.izquierda img {
+    margin-top: 20px;
+    width: 200px;
+    height: auto;
 }
-
 p {
     margin: 15px 5px;
 }
+
+
+
+
+
+
+
+
+
+
 #site-footer {
     height: 100px;
-    background-color: lightgrey;
-    color: black;display: flex;
+    background-color: rgb(245, 171, 255);
+    color:black;
+    display: flex;
     justify-content: center;
     align-items: center;
-
 }

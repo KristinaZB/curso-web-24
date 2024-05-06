@@ -3,18 +3,19 @@
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
-    list-style: none;
 }
 
 #site-header {
-    background-color: mediumpurple;
-    height: 250px;
+    background-color: rgb(245, 171, 255);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-#site-header h1, p {
-    text-align: center;
-}
+
 #site-menu {
-    background-color: black;
+    background-color: rgb(61, 0, 80);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,26 +33,39 @@
 #site-main {
     display: flex;
 }
+.izquierda, .derecha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
 .izquierda {
     background-color: rgb(224, 224, 224);
+    width: 60%;
 }
-.foto-1 {
-    background-color: blueviolet;
-    height: 200px;
-}
-
 .derecha {
+    width: 40%;
+}
 
+img {
+    width: 100%;
+    margin: 15px;
 }
 
 p {
     margin: 15px 5px;
 }
+
+
+
+
+
 #site-footer {
     height: 100px;
-    background-color: lightgrey;
-    color: black;display: flex;
+    background-color: rgb(245, 171, 255);
+    color:black;
+    display: flex;
     justify-content: center;
     align-items: center;
-
 }

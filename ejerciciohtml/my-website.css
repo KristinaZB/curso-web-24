@@ -16,6 +16,7 @@
 
 #site-menu {
     background-color: rgb(61, 0, 80);
+    background-color: rgb(61, 0, 80);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -52,7 +53,6 @@ img {
     width: 100%;
     margin: 15px;
 }
-
 p {
     margin: 15px 5px;
 }
@@ -63,6 +63,9 @@ p {
 
 #site-footer {
     height: 100px;
+    background-color: rgb(245, 171, 255);
+    color:black;
+    display: flex;
     background-color: rgb(245, 171, 255);
     color:black;
     display: flex;

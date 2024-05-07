@@ -6,6 +6,87 @@
     font-family: "roboto";
 }
 
+#site-header nav ul {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#site-header >nav >ul >li {
+    position: relative;
+    margin: 0 20px;
+}
+
+#site-header nav ul li>i {
+    color: orange;
+    position: absolute;
+    bottom: 110%;
+    opacity: 0;
+    left: 45%;
+}
+
+#site-header nav ul li > a:hover + i{
+    bottom: 95%;
+    opacity: 1;
+    transition: opacity 1s, bottom 1s;
+}
+
+#site-header nav ul li ul {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    right: -11px;
+    padding-top: 10px;
+    display: none;
+}
+
+#site-header nav > ul li:hover ul {
+    display: block;
+}
+
 span {
     background-color: orange;
 }
+span:hover {
+    background-color: white;
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+
+#icono {
+    width: 60px;
+}
+
+#site-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+#site-header nav ul {
+    display: flex;
+    margin: 10px;
+}
+a {
+    color: black;
+    margin: 15px;
+}
+
+#index-main h1{
+    text-align: center;
+    font-size: 4.5rem;
+
+}
+
+#ia {
+    width: 100%;
+
+} 
+
+#tec {
+    width: 50%;
+}
+#bur {
+    width: 50%;
+}
+
+

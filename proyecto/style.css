@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "roboto";
+}
+
+#site-header nav ul {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#site-header >nav >ul >li {
+    position: relative;
+    margin: 0 20px;
+}
+
+#site-header nav ul li>i {
+    color: orange;
+    position: absolute;
+    bottom: 110%;
+    opacity: 0;
+    left: 45%;
+}
+
+#site-header nav ul li > a:hover + i{
+    bottom: 95%;
+    opacity: 1;
+    transition: opacity 1s, bottom 1s;
+}
+
+#site-header nav ul li ul {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    right: -11px;
+    padding-top: 10px;
+    display: none;
+}
+
+#site-header nav > ul li:hover ul {
+    display: block;
+}
+
+span {
+    background-color: orange;
+    cursor: pointer;
+}
+span:hover {
+    background-color: white;
+    transition: background-color 1s;
+}
+
+#icono {
+    width: 60px;
+}
+
+/* Revisa desde las marcas cómo funciona translate */
+
+#index-main article i {
+    margin-left: 10px;
+    color: orange;
+    translate: 0px;
+    opacity: 1;
+}
+
+#index-main article p:hover {
+    color: orange;
+    opacity: 0.8s;
+}
+
+#index-main article p:hover i {
+   transition: translate 1s, opacity 1s;
+   translate: 40px;
+   opacity: 0;
+}
+
+/* Hasta aquí */
+
+#site-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+#site-header nav ul {
+    display: flex;
+    margin: 10px;
+}
+a {
+    color: black;
+}
+
+#index-main h1{
+    text-align: center;
+    font-size: 4.5rem;
+}
+
+video, img{
+    width: 100%;
+} 
+
+section {
+    margin: 20px;
+}
+
+.al-lado {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.al-lado article {
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+#index-main section .al-lado article a div p:hover {
+    color: orange;
+}
+
+#index-main section div:last-child a{
+    display: inline-block;
+    border: 2px solid black;
+    padding: 15px 10px;
+}
+
+.proyecto:hover {
+    background-color: black;
+    color: orange;
+    transition: 1s;
+}
+
+#centrar{
+   text-align: center;
+}
+
+
+

@@ -92,13 +92,6 @@ span:hover {
     padding: 0 10%;
 }
 
-/* LA TIENES DECLARADA ARRIBA -- LO PASO A LA DE ARRIBA PARA QUE NO LA TENGAS REPETIDA*/
-
-/* #site-header nav ul {
-    display: flex;
-    margin: 10px;
-} */
-
 a {
     color: black;
 }
@@ -164,6 +157,28 @@ section {
     transition: 1s;
 }
 
+#site-aside {
+    display: none;
+}
+
+#site-footer {
+    background-color: rgb(32, 32, 32);
+  text-align: center;
+}
+
+#site-footer a {
+    color: lightgray;
+    padding: 20px;
+}
+
+#site-footer div {
+    display: flex;
+    justify-content: center;
+}
+
+#fa-brands:hover {
+    color: orange;
+}
 
 
 

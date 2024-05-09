@@ -1,14 +1,19 @@
+style.css
 * {
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
-    font-family: "roboto";
+    
+/*PONEMOS TAMBIEN SAN SERIF PARA ASEGURAR*/
+    font-family: "Roboto", sans-serif;
 }
 
 #site-header nav ul {
     text-transform: uppercase;
     letter-spacing: 2px;
+    display: flex;
+    margin: 10px;
 }
 
 #site-header >nav >ul >li {
@@ -78,22 +83,39 @@ span:hover {
 
 /* Hasta aquí */
 
+/* METO PADDING AL HEADER*/
+
 #site-header {
     display: flex;
     justify-content: space-between;
     margin: 20px;
+    padding: 0 10%;
 }
-#site-header nav ul {
+
+/* LA TIENES DECLARADA ARRIBA -- LO PASO A LA DE ARRIBA PARA QUE NO LA TENGAS REPETIDA*/
+
+/* #site-header nav ul {
     display: flex;
     margin: 10px;
-}
+} */
+
 a {
     color: black;
 }
 
+/*EL MISMO PADDING QUE AL HEADER SE LO METO AL MAIN*/
+
+#index-main{
+    padding: 50px 10%;
+}
+
 #index-main h1{
-    text-align: center;
-    font-size: 4.5rem;
+   /* text-align: center; NO ESTA CENTRADO*/ 
+    font-size: 4rem;
+
+    /*AÑADO PADDING VERTICAL*/
+
+    padding: 50px 0;
 }
 
 video, img{
@@ -109,16 +131,27 @@ section {
     flex-wrap: wrap;
 }
 
+/* EL MARGIN BOTTOM A TODOS LOS ARTICULOS, QUE PILLE EL DE ARRIBA TAMBIEN*/
+
+#index-main section article{
+    margin-bottom: 30px;
+}
+
 .al-lado article {
     width: 50%;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 
 #index-main section .al-lado article a div p:hover {
     color: orange;
 }
 
-#index-main section>a{
+#index-main section>div:last-child{
+    text-align: center;
+    padding: 50px 0;
+}
+
+#index-main section .proyecto{
     display: inline-block;
     border: 2px solid black;
     padding: 15px 10px;
@@ -130,6 +163,8 @@ section {
     color: orange;
     transition: 1s;
 }
+
+
 
 
 

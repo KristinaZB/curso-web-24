@@ -1,27 +1,156 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-<style>
+    <title>Prueba galería</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
 
+        main.gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            height: 1800px;
+            padding: 150px 0;
+        }
 
-</style>
+        main.gallery div.imagen {
+            width: 25%;
+            height: 33%;
+            margin: 10px;
+            padding: 20px;
+            background-size: cover;
+            background-position: center;
+            background-color: #333;
+            border: 1px solid white;
+        }
+
+        main.gallery div.imagen:first-child {
+            background-image: url(https://images.pexels.com/photos/1081685/pexels-photo-1081685.jpeg?auto=compress&cs=tinysrgb&w=600);
+            background-size: cover;
+            background-position: center;
+        }
+
+        main.gallery div.imagen:nth-child(2) {
+            background-image: url(https://images.pexels.com/photos/19976340/pexels-photo-19976340/free-photo-of-arte-edificio-pared-muro.jpeg?auto=compress&cs=tinysrgb&w=600);
+        }
+
+        main.gallery div.imagen:nth-child(3) {
+            background-image: url(https://images.pexels.com/photos/19988121/pexels-photo-19988121/free-photo-of-blanco-y-negro-arte-edificio-pared.jpeg?auto=compress&cs=tinysrgb&w=600);
+        }
+
+        main.gallery div.imagen:nth-child(4) {
+            background-image: url(https://images.pexels.com/photos/19922978/pexels-photo-19922978/free-photo-of-islandia-mar-ciudad-arte.jpeg?auto=compress&cs=tinysrgb&w=600);
+        }
+
+        main.gallery div.imagen:nth-child(5) {
+            background-image: url(https://images.pexels.com/photos/11643390/pexels-photo-11643390.jpeg?auto=compress&cs=tinysrgb&w=600);
+        }
+
+        main.gallery div.imagen:nth-child(6) {
+            background-image: url(https://www.boredpanda.es/blog/wp-content/uploads/2015/07/vida-obra-artista-polaco-Zdzislaw-Beksinski-9.jpg);
+        }
+
+        main.gallery div.imagen:nth-child(7) {
+            background-image: url(https://redespress.wordpress.com/wp-content/uploads/2015/07/arte-zdzislaw-beksinski-10.jpg);
+        }
+
+        main.gallery div.imagen:nth-child(8) {
+            background-image: url(https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?auto=compress&cs=tinysrgb&w=600);
+        }
+
+        main.gallery div.imagen:last-child {
+            background-image: url(https://images.pexels.com/photos/9454915/pexels-photo-9454915.jpeg?auto=compress&cs=tinysrgb&w=600);
+        }
+
+        div.imagen div.sumar {
+            width: 100%;
+            height: 0;
+            background-color: white;
+            position: relative;
+            transition: all .5s;
+        
+        }
+
+        div.imagen div.sumar p {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: rebeccapurple;
+            font-size: 4rem;
+            display: none;
+        }
+
+        div.imagen:hover > div.sumar {
+            height: 100%;
+        }
+        div.imagen:hover > div.sumar > p {
+            display: block;
+        }
+    </style>
 
 
 
 </head>
+
 <body>
 
-    <div class="imagen"></div>
-    <div class="imagen"></div>
-    <div class="imagen"></div>
-    <div class="imagen"></div>
-    <div class="imagen"></div>
-    <div class="imagen"></div>
-    <div class="imagen"></div>
-    <div class="imagen"></div> 
-    <div class="imagen"></div>
+    <h1>Prueba de galería de fotos</h1>
+
+    <main class="gallery">
+        <div class="imagen">
+            <div class="sumar">
+                <p>+</p>
+            </div>
+        </div>
+        <div class="imagen">
+            <div class="sumar">
+                <p>+</p>
+            </div>
+        </div>
+        <div class="imagen">
+            <div class="sumar">
+                <p>+</p>
+            </div>
+        </div>
+        <div class="imagen">
+            <div class="sumar">
+                <p>+</p>
+            </div>
+        </div>
+        <div class="imagen">
+            <div class="sumar">
+                <p>+</p>
+            </div>
+        </div>
+        <div class="imagen">
+            <div class="sumar">
+                <p>+</p>
+            </div>
+        </div>
+        <div class="imagen">
+            <div class="sumar">
+                <p>+</p>
+            </div>
+        </div>
+        <div class="imagen">
+            <div class="sumar">
+                <p>+</p>
+            </div>
+        </div>
+        <div class="imagen">
+            <div class="sumar">
+                <p>+</p>
+            </div>
+        </div>
+
+    </main>
 </body>
+
 </html>

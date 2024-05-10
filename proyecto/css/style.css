@@ -184,13 +184,23 @@ section {
 }
 
 
-/* PÁGINA NOSOTROS */
+/* PÁGINA NOSOTROS 1 */
+#sobre-main .nosotros1 {
+    padding: 40px;
+}
 
 #sobre-main section h1 {
     color: orange;
     margin-bottom: 50px;
     font-size: 2.5rem;
-    padding: 50px;
+}
+#sobre-main div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#sobre-main div p {
+    width: 45%;
 }
 
 #sobre-main section:nth-child(1) {
@@ -198,19 +208,39 @@ section {
     color:white;
 }
 
-#sobre-main div {
-    display: flex;
-    justify-content: space-between;
-}
-#sobre-main div p {
-    padding: 30px;
-}
-
 #sobre-main div p:nth-child(1){
-font-size: 1.1rem;
+font-weight: 600;
 border-bottom: 2px solid orange;
 color: lightgray;
+}
+/*NOSOTROS 1 HASTA AQUÍ*/
+
+/*NOSOTROS 2*/
+.nosotros2 img {
+    width: 100%;
+    justify-content: center;
+    margin: 30px 0;
+}
+/*NOSOTROS 2 HASTA AQUÍ*/
+
+/*NUESTROS VALORES*/
+
+#sobre-main .nosotros3 .valores {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
 
 }
+#sobre-main .nosotros3 h2 {
+    margin: 30px;
+}
+
+#sobre-main .nosotros3 div i {
+    color: orange;
+    font-size: 1.5rem;
+}
+
+
+
 
 

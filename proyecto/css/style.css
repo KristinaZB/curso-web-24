@@ -126,7 +126,7 @@ section {
 
 /* EL MARGIN BOTTOM A TODOS LOS ARTICULOS, QUE PILLE EL DE ARRIBA TAMBIEN*/
 
-#index-main section article{
+#index-main section article {
     margin-bottom: 30px;
 }
 
@@ -185,11 +185,12 @@ section {
 
 
 /* PÁGINA NOSOTROS 1 */
-#sobre-main .nosotros1 {
+#sobre-main .nosotros1, #proyectos-main section:first-child {
     padding: 40px;
 }
 
-#sobre-main section h1 {
+#sobre-main section h1,
+#proyectos-main section h1 {
     color: orange;
     margin-bottom: 50px;
     font-size: 2.5rem;
@@ -199,20 +200,20 @@ section {
     justify-content: space-between;
 }
 
-#sobre-main div p {
+#sobre-main div p{
     width: 45%;
 }
 
-#sobre-main section:nth-child(1) {
+#sobre-main section:nth-child(1), 
+#proyectos-main section:first-child {
     background-color: rgb(32, 32, 32);
     color:white;
 }
 
-#sobre-main div p:nth-child(1){
+#sobre-main div p:nth-child(1), #proyectos-main section:first-child{
 font-weight: 500;
 border-bottom: 2px solid orange;
 color: darkgray;
-padding-bottom: 20px;
 }
 /*NOSOTROS 1 HASTA AQUÍ*/
 
@@ -246,6 +247,10 @@ padding-bottom: 20px;
     color: orange;
     font-size: 1.5rem;
 }
+
+/* Proyectos desde aquí */
+
+
 
 
 

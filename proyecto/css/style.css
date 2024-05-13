@@ -171,7 +171,7 @@ section {
     padding: 20px;
 }
 #site-footer p {
-    color: lightgray;
+    color: darkgrey;
 }
 
 #site-footer div {
@@ -194,7 +194,7 @@ section {
     margin-bottom: 50px;
     font-size: 2.5rem;
 }
-#sobre-main div {
+#sobre-main .parrafo {
     display: flex;
     justify-content: space-between;
 }
@@ -209,28 +209,35 @@ section {
 }
 
 #sobre-main div p:nth-child(1){
-font-weight: 600;
+font-weight: 500;
 border-bottom: 2px solid orange;
-color: lightgray;
+color: darkgray;
+padding-bottom: 20px;
 }
 /*NOSOTROS 1 HASTA AQUÍ*/
 
 /*NOSOTROS 2*/
 .nosotros2 img {
     width: 100%;
-    justify-content: center;
     margin: 30px 0;
+}
+.nosotros2 h2 {
+    font-size: 2rem;
+    padding: 30px;
 }
 /*NOSOTROS 2 HASTA AQUÍ*/
 
 /*NUESTROS VALORES*/
 
+#sobre-main .valores div{
+    width: 20%;
+}
+
 #sobre-main .nosotros3 .valores {
     display: flex;
     justify-content: space-around;
-    width: 100%;
-
 }
+
 #sobre-main .nosotros3 h2 {
     margin: 30px;
 }

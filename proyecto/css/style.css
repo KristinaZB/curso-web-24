@@ -24,15 +24,15 @@
 #site-header nav ul li>i {
     color: orange;
     position: absolute;
-    bottom: 110%;
+    bottom: 130%;
     opacity: 0;
     left: 45%;
+    transition: all 0.25s;
 }
 
 #site-header nav ul li > a:hover + i{
     bottom: 95%;
     opacity: 1;
-    transition: opacity 1s, bottom 1s;
 }
 
 #site-header nav ul li ul {
@@ -249,6 +249,18 @@ color: darkgray;
 }
 
 /* Proyectos desde aquí */
+
+
+
+
+section .al-lado article a div i {
+    color: orange;
+    position: absolute;
+    bottom: 130%;
+    opacity: 0;
+    left: 45%;
+    transition: all 0.25s;
+}
 
 
 

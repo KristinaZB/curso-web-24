@@ -4,7 +4,7 @@
     height: 350px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
 }
 .container div {
     padding: 20px;

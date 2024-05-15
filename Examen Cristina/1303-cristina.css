@@ -16,21 +16,27 @@ body {
 
 .contenedorPrincipal header nav ul {
     display: flex;
-    padding: 15px;
+
 }
 
 .contenedorPrincipal header nav ul li a{
+    padding: 10px;
+    display: inline-block;
     margin: 10px;
     color: black;
     font-weight: 600;
 }
 
 img {
-    width: 70%; 
+    width: 100%; 
+}
+
+.contenedorPrincipal main {
+    background-color: white;
+    width: 70%;
 }
 
 .contenedorPrincipal main section {
-    background-color: white;
     padding: 25px 15px;
 }
 
@@ -41,16 +47,11 @@ img {
     text-align: justify;
 } 
 
-.contenedorPrincipal footer {
-    background-color: firebrick;
-    color: white;
-    text-align: center;
-    padding: 35px;
-    width: calc(30% - 100px);
-}
+
 
 .contenedorPrincipal aside {
     background-color: teal;
+    padding: 25px;
     height: 200px;
     width: 250px;
     width: calc(30% - 100px);
@@ -60,17 +61,22 @@ img {
     padding: 15px;
 }
 
-.contenedorPrincipal aside ul {
-    padding:0px 15px 15px 15px;
-}
-
 .contenedorPrincipal aside li {
     border-bottom: 2px solid black;
     margin-bottom: 10px;
     font-weight: 600px;
 }
+
 .al-lado {
     display: flex;
     flex-wrap: wrap;
+}
+
+.contenedorPrincipal footer {
+    background-color: firebrick;
+    color: white;
+    text-align: center;
+    padding: 35px;
+    width: calc(70% - 100px);
 }
 

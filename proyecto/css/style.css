@@ -1,11 +1,10 @@
-
 * {
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
-    
-/*PONEMOS TAMBIEN SAN SERIF PARA ASEGURAR*/
+
+    /*PONEMOS TAMBIEN SAN SERIF PARA ASEGURAR*/
     font-family: "Roboto", sans-serif;
 }
 
@@ -16,7 +15,7 @@
     margin: 10px;
 }
 
-#site-header >nav >ul >li {
+#site-header>nav>ul>li {
     position: relative;
     margin: 0 20px;
 }
@@ -30,7 +29,7 @@
     transition: all 0.25s;
 }
 
-#site-header nav ul li > a:hover + i{
+#site-header nav ul li>a:hover+i {
     bottom: 95%;
     opacity: 1;
 }
@@ -44,7 +43,7 @@
     display: none;
 }
 
-#site-header nav > ul li:hover ul {
+#site-header nav>ul li:hover ul {
     display: block;
 }
 
@@ -52,6 +51,7 @@ span {
     background-color: orange;
     cursor: pointer;
 }
+
 span:hover {
     background-color: white;
     transition: background-color 1s;
@@ -76,9 +76,9 @@ span:hover {
 }
 
 #index-main article p:hover i {
-   transition: translate 1s, opacity 1s;
-   translate: 40px;
-   opacity: 0;
+    transition: translate 1s, opacity 1s;
+    translate: 40px;
+    opacity: 0;
 }
 
 /* Hasta aquí */
@@ -98,12 +98,12 @@ a {
 
 /*EL MISMO PADDING QUE AL HEADER SE LO METO AL MAIN*/
 
-#index-main{
+#index-main {
     padding: 50px 10%;
 }
 
-#index-main h1{
-   /* text-align: center; NO ESTA CENTRADO*/ 
+#index-main h1 {
+    /* text-align: center; NO ESTA CENTRADO*/
     font-size: 4rem;
 
     /*AÑADO PADDING VERTICAL*/
@@ -111,9 +111,10 @@ a {
     padding: 50px 0;
 }
 
-video, img{
+video,
+img {
     width: 100%;
-} 
+}
 
 section {
     margin: 20px;
@@ -139,12 +140,12 @@ section {
     color: orange;
 }
 
-#index-main section>div:last-child{
+#index-main section>div:last-child {
     text-align: center;
     padding: 50px 0;
 }
 
-#index-main section .proyecto{
+#index-main section .proyecto {
     display: inline-block;
     border: 2px solid black;
     padding: 15px 10px;
@@ -163,13 +164,14 @@ section {
 
 #site-footer {
     background-color: rgb(32, 32, 32);
-  text-align: center;
+    text-align: center;
 }
 
 #site-footer a {
     color: lightgray;
     padding: 20px;
 }
+
 #site-footer p {
     color: darkgrey;
 }
@@ -185,7 +187,8 @@ section {
 
 
 /* PÁGINA NOSOTROS 1 */
-#sobre-main .nosotros1, #proyectos-main section:first-child {
+#sobre-main .nosotros1,
+#proyectos-main section:first-child {
     padding: 40px;
 }
 
@@ -195,26 +198,29 @@ section {
     margin-bottom: 50px;
     font-size: 2.5rem;
 }
+
 #sobre-main .parrafo {
     display: flex;
     justify-content: space-between;
 }
 
-#sobre-main div p{
+#sobre-main div p {
     width: 45%;
 }
 
-#sobre-main section:nth-child(1), 
+#sobre-main section:nth-child(1),
 #proyectos-main section:first-child {
     background-color: rgb(32, 32, 32);
-    color:white;
+    color: white;
 }
 
-#sobre-main div p:nth-child(1), #proyectos-main section:first-child{
-font-weight: 500;
-border-bottom: 2px solid orange;
-color: darkgray;
+#sobre-main div p:nth-child(1),
+#proyectos-main section:first-child {
+    font-weight: 500;
+    border-bottom: 2px solid orange;
+    color: darkgray;
 }
+
 /*NOSOTROS 1 HASTA AQUÍ*/
 
 /*NOSOTROS 2*/
@@ -222,15 +228,17 @@ color: darkgray;
     width: 100%;
     margin: 30px 0;
 }
+
 .nosotros2 h2 {
     font-size: 2rem;
     padding: 30px;
 }
+
 /*NOSOTROS 2 HASTA AQUÍ*/
 
 /*NUESTROS VALORES*/
 
-#sobre-main .valores div{
+#sobre-main .valores div {
     width: 20%;
 }
 
@@ -261,10 +269,3 @@ section .al-lado article a div i {
     left: 45%;
     transition: all 0.25s;
 }
-
-
-
-
-
-
-

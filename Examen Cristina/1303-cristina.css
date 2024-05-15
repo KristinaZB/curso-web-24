@@ -51,20 +51,19 @@ img {
 } 
 
 .contenedorPrincipal aside h4 {
-    padding: 15px;
+    padding: 20px;
     font-size: 1.5rem;
 }
 .contenedorPrincipal aside {
     background-color: teal;
-    padding: 25px;
-    height: 200px;
+    padding: 30px;
+    height: 230px;
     width: calc(30% - 100px);
 }
 
 .contenedorPrincipal aside li {
     border-bottom: 2px solid black;
-    margin-bottom: 10px;
-    font-weight: 600px;
+    margin-bottom: 30px;
 }
 
 .al-lado {
@@ -76,7 +75,7 @@ img {
     background-color: firebrick;
     color: white;
     text-align: center;
-    padding: 35px;
+    padding: 50px;
     width: calc(70% - 100px);
 }
 

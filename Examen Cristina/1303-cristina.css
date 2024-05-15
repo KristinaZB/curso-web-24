@@ -47,13 +47,10 @@ img {
     text-align: justify;
 } 
 
-
-
 .contenedorPrincipal aside {
     background-color: teal;
     padding: 25px;
     height: 200px;
-    width: 250px;
     width: calc(30% - 100px);
 }
 

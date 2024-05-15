@@ -158,9 +158,6 @@ section {
     transition: 1s;
 }
 
-#site-aside {
-    display: none;
-}
 
 #site-footer {
     background-color: rgb(32, 32, 32);
@@ -265,4 +262,26 @@ section .al-lado article a div i {
     opacity: 0;
     left: 45%;
     transition: all 0.25s;
+}
+
+#site-aside {
+    position: fixed;
+    bottom: 0;
+    background-color: #333;
+    color: white;
+    height: 230px;
+    text-align: center;
+    padding: 50px 300px;
+    display: none;
+}
+
+#site-aside p {
+    margin: 30px;
+}
+
+#site-aside input {
+    padding: 13px;
+    border-radius: 4px;
+    background-color: orange;
+    font-size: 1.2rem;
 }

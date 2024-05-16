@@ -20,7 +20,17 @@
 <button onclick="document.getElementById('prueba2').innerHTML = '*-*'">Pulsa para recibir un mensaje personalizado</button>
 <p id="prueba2"></p>
 
+<hr>
 
+<p>Javascript tiene la posibilidad de cambiar los valores de los atributos de los elementos HTML.</p>
+<p>En este caso Javascript cambiará el valor del atributo src (source u origen) de la imagen.</p>
+
+<button onclick="document.getElementById('bombilla').src = '../img/pic_bulbon.gif'">Encender la luz</button>
+
+<img id="bombilla" src="../img/pic_bulboff.gif">
+
+
+<button onclick="document.getElementById('bombilla').src = '../img/pic_bulboff.gif'">Apagar la luz</button>
 
 
 

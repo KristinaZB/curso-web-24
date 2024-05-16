@@ -1,42 +1,68 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Introcción a javascript</title>
+    <title>Introducción a javascript</title>
 </head>
+
 <body>
 
-<h1>Javascript</h1>
+    <h1>Javascript</h1>
 
-<h2>Mi primer script</h2>
+    <h2>Mi primer script</h2>
 
-<button type="button" onclick="document.getElementById('prueba1').innerHTML = Date()">Pulsa aquí para mostrar la fecha y hora</button>
+    <button type="button" onclick="document.getElementById('prueba1').innerHTML = Date()">Pulsa aquí para mostrar la
+        fecha y hora</button>
 
-<p id="prueba1"></p>
+    <p id="prueba1"></p>
+
+
+    <button onclick="document.getElementById('prueba2').innerHTML = '*-*'">Pulsa para recibir un mensaje
+        personalizado</button>
+    <p id="prueba2"></p>
+
+    <hr>
+
+    <h2>Cambiar atributos con Javascript</h2>
+
+    <p>Javascript tiene la posibilidad de cambiar los valores de los atributos de los elementos HTML.</p>
+    <p>En este caso Javascript cambiará el valor del atributo src (source u origen) de la imagen.</p>
+
+    <button onclick="document.getElementById('bombilla').src = '../img/pic_bulbon.gif'">Encender la luz</button>
+
+    <img id="bombilla" src="../img/pic_bulboff.gif">
+
+    <button onclick="document.getElementById('bombilla').src = '../img/pic_bulboff.gif'">Apagar la luz</button>
+
+    <hr>
+
+    <h2>Cambiar estilos CSS con javascript</h2>
+
+    <p id="prueba-css">Javascript puede cambiar el estilo de un elemento HTML.</p>
+    <Button onclick="document.getElementById('prueba-css').style.fontSize = '3rem'">Púlsame!</Button>
+    <Button onclick="document.getElementById('prueba-css').style.color = 'pink'">Púlsame!</Button>
+    <Button onclick="document.getElementById('prueba-css').style.backgroundColor = 'blueviolet'">Púlsame!</Button>
 
 <hr>
 
-<button onclick="document.getElementById('prueba2').innerHTML = '*-*'">Pulsa para recibir un mensaje personalizado</button>
-<p id="prueba2"></p>
+    <Button onclick="document.getElementById('prueba-css').style.backgroundColor = 'blueviolet';
+    document.getElementById('prueba-css').style.fontSize = '3rem';
+    document.getElementById('prueba-css').style.color = 'pink'">Púlsame!</Button>
 
 <hr>
 
-<p>Javascript tiene la posibilidad de cambiar los valores de los atributos de los elementos HTML.</p>
-<p>En este caso Javascript cambiará el valor del atributo src (source u origen) de la imagen.</p>
+<h2>Ocultar/Mostrar elementos HTML con Javascript</h2>
 
-<button onclick="document.getElementById('bombilla').src = '../img/pic_bulbon.gif'">Encender la luz</button>
+<button onclick="document.getElementById('prueba-display').style.display = 'none'">Ocultar</button>
+<button onclick="document.getElementById('prueba-display').style.display = 'block'">Mostrar</button>
 
-<img id="bombilla" src="../img/pic_bulboff.gif">
-
-<button onclick="document.getElementById('bombilla').src = '../img/pic_bulboff.gif'">Apagar la luz</button>
+<p id="prueba-display">Javascript tiene la posibilidad de mostrar y ocultar elementos HTML.</p>
 
 
 
 
-
-
-
-    
 </body>
+
 </html>

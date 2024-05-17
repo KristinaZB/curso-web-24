@@ -21,8 +21,15 @@ console.log("Número de personas: " + contador);
 // Segundo caso: Llega un cliente
 console.log('Llega un cliente');
 
-if (contador = 20) {
+contador = 20
+if (contador == 20) {
     // Si se cumple la condición se ejecuta
+    console.log('Aforo completo, espera a que salga alguien')
+
 } else {
     // si no se ejecuta la condición se ejecuta este
+    console.log('El cliente entra')
+    contador++;
+    console.log("Numero de personas: " + contador);
+
 }

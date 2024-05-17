@@ -1,0 +1,47 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: thistle;
+    background-color: slateblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.contenedor {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.contenedor * {
+    margin: 10px 5px;
+}
+.contenedor button {
+    padding: 0px 25px;
+    color:aliceblue;
+    font-size: 2rem;
+    background-color: pink;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 3px plum;
+}
+
+.contenedor button:hover {
+    cursor: pointer;
+}
+
+.contenedor button:active {
+    box-shadow: none;
+    transform: translateY(2px);
+}
+
+#completo {
+    background-color: rgba(255, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+

@@ -14,11 +14,11 @@ let Completo = document.getElementById('completo');
 // las funciones son bloques de código reutilizables que podemos llamar a voluntad
 
 function sumar() {
-contador++;
+if (contador < 20) contador++;
 resultado();
 }
 function restar() {
-    contador--;
+  if (contador > 0) contador--;
     resultado();
 }
 
@@ -26,3 +26,4 @@ function resultado() {
     pTotal.innerHTML = contador;
     // Cada vez que ejecutamos esta función el párrafo HTML se actualiza con el valor del contador
 }
+

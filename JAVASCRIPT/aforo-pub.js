@@ -17,6 +17,7 @@ function sumar() {
 if (contador < 20) contador++;
 resultado();
 }
+
 function restar() {
   if (contador > 0) contador--;
     resultado();

@@ -26,6 +26,7 @@ function sumar() {
   } else {
     // Si intentamos sumar cuando el contador está en 20 aparecerá el mensaje el aforo está completo
     pCompleto.style.opacity = 1;
+    Sumar.style.backgroundColor = "lightgray";
   }
   // Si el contador llega a 20 muestra el mensaje de aforo completo
   resultado ();
@@ -37,6 +38,7 @@ function restar() {
   // Sólo resta si el contador es mayor que 0. Esto es para evitar mostrar números negativos
   pCompleto.style.opacity = 0;
 //  En cuanto sale alguien, restamos y el aforo deja de estar completo
+Sumar.style.backgroundColor = "pink";
   
   resultado();
 }

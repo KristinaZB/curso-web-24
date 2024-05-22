@@ -244,11 +244,13 @@ section {
 #sobre-main .nosotros3 .valores {
     display: flex;
     justify-content: space-around;
+    text-align: justify;
 }
 
 #sobre-main .nosotros3 h2 {
     margin: 30px;
 }
+#sobre-main .nosotros3 .valores
 
 #sobre-main .nosotros3 div i {
     color: orange;

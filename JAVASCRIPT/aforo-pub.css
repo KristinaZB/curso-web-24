@@ -39,13 +39,13 @@ div.contenedor {
 }
 
 /* Creamos una clase que hace que el botón se inhabilite visualmente */
-.contenedor button.inactivo {
+ .contenedor button.inactivo {
     background-color: silver;
     color: silver;
     box-shadow: none;
     transform: translateY(2px);
     cursor: default;
-}
+} 
 
 #completo {
     background-color: rgba(255, 0, 0, 0.6);

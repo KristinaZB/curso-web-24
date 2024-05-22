@@ -38,6 +38,15 @@ div.contenedor {
     transform: translateY(2px);
 }
 
+/* Creamos una clase que hace que el botón se inhabilite visualmente */
+.contenedor button.inactivo {
+    background-color: silver;
+    color: silver;
+    box-shadow: none;
+    transform: translateY(2px);
+    cursor: default;
+}
+
 #completo {
     background-color: rgba(255, 0, 0, 0.6);
     padding: 20px;

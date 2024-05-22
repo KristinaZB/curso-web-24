@@ -11,7 +11,7 @@ aforo = 20;
 // Tenemos que identificar todos los elementos HTML que vayamos a manipular con JS
 // Los guardamos en variables:
 let Sumar = document.getElementById('sumar');
-let Restar = document.getElementById('Restar');
+let Restar = document.getElementById('restar');
 let pTotal = document.getElementById('total');
 let pCompleto = document.getElementById('completo');
 
@@ -26,10 +26,11 @@ function sumar() {
   } else {
     // Si intentamos sumar cuando el contador está en 20 aparecerá el mensaje el aforo está completo
     pCompleto.style.opacity = 1;
-    Sumar.style.backgroundColor = "lightgray";
+    // Sumar.style.backgroundColor = "lightgray";
   }
   // Si el contador llega a 20 muestra el mensaje de aforo completo
   resultado ();
+  comprobarBoton();
 
 }
 
@@ -46,5 +47,14 @@ Sumar.style.backgroundColor = "pink";
 function resultado() {
   pTotal.innerHTML = contador;
   // Cada vez que ejecutamos esta función el párrafo HTML se actualiza con el valor del contador
+}
+
+// función para habilitar o deshabilitar los botones
+
+function comprobarBoton() {
+  if (contador > 0) {
+    Restar.classList.remove('inactivo');
+
+  }
 }
 

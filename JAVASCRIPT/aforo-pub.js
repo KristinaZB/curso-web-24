@@ -53,8 +53,13 @@ function resultado() {
 
 function comprobarBoton() {
   if (contador > 0) {
+    // reactivamos el btn - si el contador sube de 0
     Restar.classList.remove('inactivo');
 
+  }
+  if(contador == aforo) {
+    // desactivamos el btn + si el contador alcanza el aforo máximo
+    Sumar.classList.add('inactivo');
   }
 }
 

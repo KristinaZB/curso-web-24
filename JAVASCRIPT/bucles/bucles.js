@@ -17,6 +17,13 @@ Esta declaración crea una expresión con tres valores opcionales:
 for (let i = 0; i < 5; i++) {
     console.log(i);
 }
-for (let i = 0; i < 10; i++) {
+
+for (let i = 0; i < 11; i++) {
+    console.log(i);
+}
+
+
+
+for (let i = 0; i > 10; i++) {
     console.log(i);
 }
